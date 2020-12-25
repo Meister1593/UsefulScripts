@@ -1,7 +1,7 @@
-if [[ -d "/home/plyshka/.steam/steam/steamapps/common/"$1"/dist" ]]; then
-    export W="/home/plyshka/.steam/steam/steamapps/common/"$1"/dist"
-elif [[ -d "/home/plyshka/.steam/steam/compatibilitytools.d/"$1"/dist" ]]; then
-    export W="/home/plyshka/.steam/steam/compatibilitytools.d/"$1"/dist"
+if [[ -d "/home/$USER/.steam/steam/steamapps/common/"$1"/dist" ]]; then
+    export W="/home/$USER/.steam/steam/steamapps/common/"$1"/dist"
+elif [[ -d "/home/$USER/.steam/steam/compatibilitytools.d/"$1"/dist" ]]; then
+    export W="/home/$USER/.steam/steam/compatibilitytools.d/"$1"/dist"
 else
     echo "Proton not found, exiting."
     exit 1

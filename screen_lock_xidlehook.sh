@@ -1,8 +1,10 @@
-#!/usr/bin/env bash
+#!/bin/bash
+
+current_dir="$(dirname "$(readlink -f "$0")")"
 
 pkill xidlehook
 
-rm "$HOME/Scripts/xidlehook.socket"
+rm "$current_dir/xidlehook.socket"
 
 xidlehook \
 	--not-when-fullscreen \
@@ -13,4 +15,4 @@ xidlehook \
 	--timer 30 \
 		'xset dpms force off' \
 		'' \
-	--socket "$HOME/Scripts/xidlehook.socket"
+		--socket "$current_dir/xidlehook.socket"

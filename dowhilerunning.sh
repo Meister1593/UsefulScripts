@@ -4,8 +4,8 @@
 
 WindowLabel[0]="blender"
 WindowLabel[1]="minecraft"
-WindowLabel[2]="r5apex.exe"
-WindowLabel[3]="kerbal"
+WindowLabel[2]="r5apex"
+WindowLabel[3]="ksp"
 
 # Prep mouse scrolling with button
 Mouse='A4TECH USB Device'

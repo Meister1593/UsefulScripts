@@ -6,6 +6,7 @@ WindowLabel[0]="blender"
 WindowLabel[1]="minecraft"
 WindowLabel[2]="r5apex"
 WindowLabel[3]="ksp"
+WindowLabel[4]="DSPGAME.exe"
 
 # Prep mouse scrolling with button
 Mouse='A4TECH USB Device'

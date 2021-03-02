@@ -7,6 +7,9 @@ WindowLabel[1]="minecraft"
 WindowLabel[2]="r5apex"
 WindowLabel[3]="ksp"
 WindowLabel[4]="DSPGAME.exe"
+WindowLabel[5]="RimWorldLinux"
+WindowLabel[6]="RimWorldWin64.e"
+WindowLabel[7]="CelestialCommand.x86_64"
 
 # Prep mouse scrolling with button
 Mouse='A4TECH USB Device'
